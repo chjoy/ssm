@@ -13,5 +13,7 @@
         <module>redis</module>
         <module>web</module>
         <module>mongodb</module>
+        <module>dubbo</module>
+        <module>velocity</module>
     </modules>
 </project>

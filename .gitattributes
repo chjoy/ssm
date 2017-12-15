@@ -1,0 +1,2 @@
+#合并时，忽略文件,merge时候加上-s outs
+test.txt merge=ours
