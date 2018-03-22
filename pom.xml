@@ -15,5 +15,6 @@
         <module>mongodb</module>
         <module>dubbo</module>
         <module>velocity</module>
+        <module>mybatisplus</module>
     </modules>
 </project>
