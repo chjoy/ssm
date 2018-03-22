@@ -16,5 +16,6 @@
         <module>dubbo</module>
         <module>velocity</module>
         <module>mybatisplus</module>
+        <module>test</module>
     </modules>
 </project>
