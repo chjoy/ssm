@@ -7,6 +7,21 @@
     <artifactId>ssm</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+    <properties>
+        <spring.version>4.3.5.RELEASE</spring.version>
+        <mybatis.version>3.2.1</mybatis.version>
+        <druid.version>0.2.23</druid.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <log4j.version>1.2.17</log4j.version>
+        <mysql.version>5.1.35</mysql.version>
+        <ehcache.version>3.0.0.m3</ehcache.version>
+        <mybatis-ehcache.version>1.0.0</mybatis-ehcache.version>
+        <velocity.version>1.6</velocity.version>
+        <velocity-tool-generic.version>1.4</velocity-tool-generic.version>
+        <velocity-tool.version>2.0</velocity-tool.version>
+        <shiro.version>1.3.2</shiro.version>
+        <joey.mybatis.version>0.0.1</joey.mybatis.version>
+    </properties>
     <modules>
         <module>freemarker</module>
         <module>shiro</module>
@@ -15,8 +30,7 @@
         <module>mongodb</module>
         <module>dubbo</module>
         <module>velocity</module>
-        <module>mybatisplus</module>
-        <module>test</module>
         <module>mybatis_plus</module>
+        <module>test</module>
     </modules>
 </project>

@@ -1,6 +1,6 @@
 package com.joey.ssm.web.controller;
 
-import com.joey.ssm.test.facade.TestFacade;
+import com.joey.ssm.web.service.TestWebService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,12 +16,11 @@ import javax.annotation.Resource;
 @RequestMapping("/hello")
 public class HelloController {
     @Resource
-    private TestFacade testFacade;
+    private TestWebService testWebService;
 
     @GetMapping("/world")
     @ResponseBody
     public String world(){
-        testFacade.test();
-        return "world";
+        return testWebService.test();
     }
 }
